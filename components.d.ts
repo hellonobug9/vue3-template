@@ -7,7 +7,9 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    DRMVideo: typeof import('./src/components/DRMVideo.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    NormalAudio: typeof import('./src/components/NormalAudio.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

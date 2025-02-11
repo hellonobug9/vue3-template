@@ -113,3 +113,7 @@ const store = useStore()
     </p>
   </div>
 </template>
+
+function useStore() {
+  throw new Error("Function not implemented.");
+}
